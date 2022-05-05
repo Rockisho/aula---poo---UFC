@@ -2,10 +2,11 @@ class Conta:
     def __init__(self, numero):
         self.__numero = numero
         self.__saldo = 0
+
     def creditar(self, valor):
         self.__saldo += valor
 
-    def deditar(self, valor):
+    def debitar(self, valor):
         self.__saldo -= valor
 
     def get_numero(self):
