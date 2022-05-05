@@ -1,5 +1,6 @@
 class ContaPoupanca(Conta):
     def __int__(self, numero):
-        pass
+        super().__init__(numero)
+
     def render_juros(self, taxa):
-        pass
+        self.creditar(self.get_saldo).__init__(numero)
